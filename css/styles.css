@@ -1,0 +1,66 @@
+    body {
+      background-image: url(img/car-background.jpeg);
+    }
+
+    h1{
+      font-size: 80px;
+      color:white;
+      text-align: center;
+    }
+    h2{
+      color:white;
+      text-align: center;
+    }
+    p{
+      color:white;
+      text-align: center;
+    }
+
+    label{
+      color: white;
+      text-shadow: 2px 2px 2px black
+    }
+
+    form {
+      padding:10px;
+      margin:10px;
+    }
+
+    .row p {
+      text-shadow: 2px 2px 2px black;
+    }
+    .detailsinput {
+      border-width: 5px; 
+      border-style: solid; 
+      border-color: white; 
+      border-radius: 25px;}
+    }
+
+
+    #mainsection{
+      text-align: center;
+      margin: 10px;
+    }
+
+    #submit{
+      margin-bottom:10px;
+    }
+
+    .row {
+      color: white; 
+      display: inline; 
+    } 
+    .col-md-12 {
+      text-shadow: 2px 2px 2px black; 
+      border-width: 5px; 
+      border-style: solid; 
+      border-color: black solid; 
+      border-radius: 25px;
+    }
+    #text-center { 
+      text-align: center; 
+      display: inline-block;
+    }
+    #right {
+      display: inline-block;
+    }
