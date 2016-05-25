@@ -7,15 +7,19 @@
 	<style type="text/css">
 		body {background-image: url(img/car-background.jpeg);}
 		.row {color: white; display: inline; } 
-		.col-md-12 {text-shadow: 2px 2px 2px black; border-width: 5px; border-style: solid; border-color: black solid; border-radius: 25px;}
-		#text-center { text-align: center; display: inline-block;}
-		#right {display: inline-block;}
+		.col-xs-12 {text-shadow: 2px 2px 2px black; border-width: 5px; border-style: solid; border-color: black solid; border-radius: 25px;}
+    #line {display: inline-block;}
+		#text-center{ text-align: center;}
+		
+		
 	</style>
 	
 </head>
 <body>
     <div class="navbar-wrapper">
-      <div class="container">
+      <div class="  display: inline-block;
+  vertical-align: top;
+  width: 25%;container">
 
         <nav class="navbar navbar-inverse navbar-static-top">
           <div class="container">
@@ -56,30 +60,32 @@
 	
    	<div class="container">
       <div class="row">
-      	<div class="col-md-12">
-          <h2>Make:</h2>
+      	<div id="line" class="col-xs-12">
+          	<h2>Make:</h2>
           		<ul>
           			<li>Ford</li>
           		</ul>
-          <h2>Model:</h2>
+            <h2>Model:</h2>
           		<ul>
           			<li>Ka</li>
           		</ul>
-          <h2 id="right">Year:</h2>
+            <h2 >Year:</h2>
           		<ul>
-          			<li id="right">2012</li>
+          			<li>2012</li>
           		</ul>
-          <h2 id="right">Issue:</h2>
+           	<h2>Issue:</h2>
           		<ul>
-          			<li id="right">Head Gasket</li>
-          		</ul>	
+          			<li>Head Gasket</li>
+          		</ul>
         </div>
       </div>
     </div>
-
+         
+      
+     
     <div class="container">	
       <div class="row">
-        <div id="text-center" class="col-md-12">
+        <div id="text-center" class="col-xs-12">
           <h2>Estimated Cost of Repair:</h2>
           	<ul>
           		<li>1,500 - 2,000</li>
@@ -90,7 +96,7 @@
 
 	<div class="container">
       <div class="row">
-       	 <div id="text-center" class="col-md-12">
+       	 <div id="text-center" class="col-xs-12">
           <h2>Terms and Conditions</h2>
           	<ul>
           		<li>YourMechanic provides you with access to our network of independent auto mechanics through which you can schedule an appointment for one of these mechanics near you to travel to your home or place of work to diagnose a problem with your car or to repair or perform maintenance on your car (a “Job”).</li>
