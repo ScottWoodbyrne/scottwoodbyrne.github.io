@@ -6,14 +6,11 @@
 	<title>Carpedia</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
-	<style type="text/css">
-	   
 
-   
-    /** {
-      border: 1px solid red;
-    
-    }*/
+	<style type="text/css">
+	    body {
+      background-image: url(img/car-background.jpeg);
+    }
 
 
 	</style>
@@ -21,6 +18,8 @@
 	</style>
 </head>
 <body>
+          <!--Navbar start-->
+
     <div class="navbar-wrapper">
       <div class="container">
 
@@ -39,19 +38,6 @@
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li>
               </ul>
             </div>
           </div>
@@ -60,69 +46,77 @@
       </div>
     </div>
 
+        <!--Navbar End-->
 
+        <!-- Start of heading-->
 
-<section class="container" id="mainsection">
+<div class="container" id="mainsection">
     <h1>
       CARPEDIA
     </h1>
     <h2>
       Get a quick estimate price for your car repair
     </h2>
-    <div container>
-    <div class="detailsinput">
-    <div class="row">
-    <form>
-  <div class="form-group text-center col-md-4">
-    <label for="make">Make</label>    
-    <select class="form-control" id="make" placeholder="make">
-            <option>Ford</option>
-            <option>Toyota</option>
-            <option>Audi</option>
-            <option>BMW</option>
-            <option>Nissan</option>
-      </select>
-  </div>
-  <div class="form-group text-center col-md-4 col-md-offset-4">
-    <label for="model">Model</label>
-    <select class="form-control" id="model" placeholder="model">
-            <option>Ka</option>
-            <option>corolla</option>
-            <option>TT</option>
-            <option>5series</option>
-            <option>Quasqui</option>
-      </select>
-  </div>
-    <div class="form-group text-center col-md-4">
-    <label for="year">Year</label>
-    <select class="form-control" id="year" placeholder="year">
-            <option>2005</option>
-            <option>2006</option>
-            <option>2007</option>
-            <option>2008</option>
-            <option>2009</option>
-      </select>
-  </div>
-    <div class="form-group text-center col-md-4 col-md-offset-4">
-    <label for="issue">issue</label>
-    <select class="form-control" id="issue" placeholder="issue">
-            <option>New clutch required</option>
-            <option>Brake pads to be replaced</option>
-            <option>Timing belt to be changed</option>
-            <option>Full service</option>
-            <option>Electric window to be replaced</option>
-      </select>
-  </div>
+</div>
   
-  <button type="submit" id="submit" class="col-xs-offset-3 col-xs-6 col-md-offset-4 col-md-4 btn btn-primary">Submit</button>
-</form>
+<!-- End of heading-->
+
+
+<!--start of input deatils box-->
+<div class="container whiteborder">
+    
+           <div class="row">
+                <form>
+                      <div class="form-group text-center col-md-4">
+                        <label for="make">Make</label>    
+                        <select class="form-control" id="make" placeholder="make">
+                                <option>Ford</option>
+                                <option>Toyota</option>
+                                <option>Audi</option>
+                                <option>BMW</option>
+                                <option>Nissan</option>
+                        </select>
+                      </div>
+                      <div class="form-group text-center col-md-4 col-md-offset-4">
+                        <label for="model">Model</label>
+                        <select class="form-control" id="model" placeholder="model">
+                                <option>Ka</option>
+                                <option>corolla</option>
+                                <option>TT</option>
+                                <option>5series</option>
+                                <option>Quasqui</option>
+                          </select>
+                      </div>
+                        <div class="form-group text-center col-md-4">
+                          <label for="year">Year</label>
+                          <select class="form-control" id="year" placeholder="year">
+                                  <option>2005</option>
+                                  <option>2006</option>
+                                  <option>2007</option>
+                                  <option>2008</option>
+                                  <option>2009</option>
+                            </select>
+                        </div>
+                        <div class="form-group text-center col-md-4 col-md-offset-4">
+                          <label for="issue">issue</label>
+                          <select class="form-control" id="issue" placeholder="issue">
+                                  <option>New clutch required</option>
+                                  <option>Brake pads to be replaced</option>
+                                  <option>Timing belt to be changed</option>
+                                  <option>Full service</option>
+                                  <option>Electric window to be replaced</option>
+                          </select>
+                        </div>
+              
+                        <button type="submit" id="submit" class="col-xs-offset-3 col-xs-6 col-md-offset-4 col-md-4 btn btn-primary">Submit</button>
+                </form>
+
+
+            </div>
+    
 </div>
 
-    </div>
-    </div>
-
-</section>
-
+<!--end of input deatils box-->
 
 
 
@@ -131,10 +125,9 @@
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
 
-
-<div class="container">
+<div class="container whiteborder">
       <div class="row">
-         <div id="text-center" class="col-md-12">
+         <div id="text-center">
           <h2>Terms and Conditions</h2>
             <ul>
               <li>YourMechanic provides you with access to our network of independent auto mechanics through which you can schedule an appointment for one of these mechanics near you to travel to your home or place of work to diagnose a problem with your car or to repair or perform maintenance on your car (a “Job”).</li>

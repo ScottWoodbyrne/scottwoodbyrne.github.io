@@ -1,19 +1,25 @@
+    
+
     body {
       background-image: url(img/car-background.jpeg);
     }
+
 
     h1{
       font-size: 80px;
       color:white;
       text-align: center;
+      text-shadow: 2px 2px 2px black
     }
     h2{
       color:white;
       text-align: center;
+      text-shadow: 2px 2px 2px black
     }
     p{
       color:white;
-      text-align: center;
+      text-align: center; 
+      text-shadow: 2px 2px 2px black
     }
 
     label{
@@ -29,17 +35,18 @@
     .row p {
       text-shadow: 2px 2px 2px black;
     }
-    .detailsinput {
+
+    .whiteborder {
       border-width: 5px; 
       border-style: solid; 
       border-color: white; 
-      border-radius: 25px;}
+      border-radius: 25px;
+      margin-top: 15px;
     }
 
 
     #mainsection{
       text-align: center;
-      margin: 10px;
     }
 
     #submit{
